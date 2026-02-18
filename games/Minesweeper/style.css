@@ -1,0 +1,30 @@
+.center {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#minesweeper-table {
+    padding: 20px 0;
+    width: auto;
+    text-align: center;
+}
+
+#main-board-table {
+    background-color: grey;
+    text-align: center;
+    margin: auto;
+}
+
+td {
+    border: 1px solid white;
+    text-align: center;
+    width: 20px;
+}
+
+td:hover {
+    background-color: rgb(75, 243, 255);
+}
+
+td:after {
+    content: "\00A0";
+}

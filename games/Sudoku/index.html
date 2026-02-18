@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sudoku</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <center>Sudoku</center>
+        <div class='main-board'>
+            <div class="center actionBtn">
+                <select id="game-level">
+                    <option value="0.1" selected>Easy</option>
+                    <option value="0.4">Medium</option>
+                    <option value="0.7">Hard</option>
+                    <option value="0.9">Inhuman</option>
+                </select>
+                <button id='resetBtn'>Reset</button>
+            </div>
+            <div id="sudoku-table">
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
