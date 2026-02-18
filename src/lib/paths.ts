@@ -1,11 +1,11 @@
 // Get the base path for the application
 export const getBasePath = (): string => {
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     // Browser environment - get from window location or use empty string
-    return '';
+    return "";
   }
   // Server environment
-  return process.env.NODE_ENV === 'production' ? '/Portfolio' : '';
+  return process.env.NODE_ENV === "production" ? "/Portfolio" : "";
 };
 
 // Get a full path with base path prefix
