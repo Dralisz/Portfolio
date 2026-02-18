@@ -91,7 +91,7 @@ export default function Home() {
                   style={{ height: "400px" }}
                 >
                   <iframe
-                    src="/games/TicTacToe/index.html"
+                    src="/Portfolio/games/TicTacToe/index.html"
                     title="Tic Tac Toe Game"
                     className="w-full h-full border-none rounded"
                     sandbox="allow-scripts allow-same-origin"
@@ -108,7 +108,7 @@ export default function Home() {
                   style={{ height: "400px" }}
                 >
                   <iframe
-                    src="/games/Minesweeper/index.html"
+                    src="/Portfolio/games/Minesweeper/index.html"
                     title="Minesweeper Game"
                     className="w-full h-full border-none rounded"
                     sandbox="allow-scripts allow-same-origin"
@@ -125,7 +125,7 @@ export default function Home() {
                   style={{ height: "400px" }}
                 >
                   <iframe
-                    src="/games/Sudoku/index.html"
+                    src="/Portfolio/games/Sudoku/index.html"
                     title="Sudoku Game"
                     className="w-full h-full border-none rounded"
                     sandbox="allow-scripts allow-same-origin"
@@ -142,7 +142,7 @@ export default function Home() {
                   style={{ height: "400px" }}
                 >
                   <iframe
-                    src="/games/Playground/index.html"
+                    src="/Portfolio/games/Playground/index.html"
                     title="Playground Game"
                     className="w-full h-full border-none rounded"
                     sandbox="allow-scripts allow-same-origin"
@@ -159,7 +159,7 @@ export default function Home() {
                   style={{ height: "400px" }}
                 >
                   <iframe
-                    src="/games/TicTacToeAI/index.html"
+                    src="/Portfolio/games/TicTacToeAI/index.html"
                     title="Tic Tac Toe AI Game"
                     className="w-full h-full border-none rounded"
                     sandbox="allow-scripts allow-same-origin"
