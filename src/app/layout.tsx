@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   title: "Frontend Developer Portfolio",
   description:
     "Professional portfolio showcasing my frontend development skills and projects",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/next.svg", type: "image/svg+xml" },
+    ],
+  },
 };
 
 export default function RootLayout({

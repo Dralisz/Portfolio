@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { profile } from "@/lib/profile";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -12,7 +13,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="text-xl font-bold">
-              Your Name
+              {profile.name}
             </Link>
           </div>
 
@@ -48,6 +49,13 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <a
+              href={profile.cvPath}
+              download
+              className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Download CV
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -130,6 +138,14 @@ export default function Navbar() {
             >
               Contact
             </Link>
+            <a
+              href={profile.cvPath}
+              download
+              className="block px-3 py-2 rounded-md hover:bg-gray-50"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Download CV
+            </a>
           </div>
         </div>
       )}
